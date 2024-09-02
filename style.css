@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+main {
+  /* width: 240px; */
+  width: calc(100% - 32px);
+  margin: 32px auto;
+}
+
+section {
+  border: 4px double #DFEDF1;
+  text-align: center;
+  color: #036EB7;
+}
+
+h1 {
+  margin: 0;
+  border-bottom: 2px solid #DFEDF1;
+  font-weight: normal;
+  padding: 8px 0;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+button {
+  all: unset;
+  width: 100%;
+  background: #036DB7;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  margin-top: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px #5C677C;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  box-shadow: 0 1px #5C677C;
+  transform: translateY(3px);
+}
